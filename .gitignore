@@ -2,24 +2,11 @@
 venv/
 .env
 
-# OS-specific
-__pycache__/
-*.pyc
-
-# Logs
-*.log
 
 # PDFs and extracted text
 pdfs/
 extracted_texts/
 
-# RAG generated outputs
-out_md/
-output_md/
-*.md
-
-# FAISS index files (optional)
-*.index
 
 # Streamlit cache
 .streamlit/
