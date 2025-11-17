@@ -22,7 +22,7 @@ MD_DIR = "project\out_md"   # Folder where your Markdown files live
 # 1. Setup
 # ----------------------------------------
 load_dotenv()
-OPENROUTER_API_KEY = st.secrets[OPENROUTER_API_KEY]
+OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
 if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY missing in .env")
