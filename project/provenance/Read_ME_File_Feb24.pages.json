@@ -1,0 +1,100 @@
+{
+  "title": "Read_ME_File_Feb24",
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 35,
+      "has_images": true
+    },
+    {
+      "page": 2,
+      "char_count": 2221,
+      "has_images": false
+    },
+    {
+      "page": 3,
+      "char_count": 1547,
+      "has_images": true
+    },
+    {
+      "page": 4,
+      "char_count": 921,
+      "has_images": true
+    },
+    {
+      "page": 5,
+      "char_count": 1821,
+      "has_images": true
+    },
+    {
+      "page": 6,
+      "char_count": 1162,
+      "has_images": true
+    },
+    {
+      "page": 7,
+      "char_count": 1516,
+      "has_images": true
+    },
+    {
+      "page": 8,
+      "char_count": 2001,
+      "has_images": false
+    },
+    {
+      "page": 9,
+      "char_count": 2451,
+      "has_images": false
+    },
+    {
+      "page": 10,
+      "char_count": 599,
+      "has_images": true
+    },
+    {
+      "page": 11,
+      "char_count": 2770,
+      "has_images": false
+    },
+    {
+      "page": 12,
+      "char_count": 1571,
+      "has_images": false
+    },
+    {
+      "page": 13,
+      "char_count": 1251,
+      "has_images": false
+    },
+    {
+      "page": 14,
+      "char_count": 2187,
+      "has_images": false
+    },
+    {
+      "page": 15,
+      "char_count": 2168,
+      "has_images": false
+    },
+    {
+      "page": 16,
+      "char_count": 2357,
+      "has_images": false
+    },
+    {
+      "page": 17,
+      "char_count": 1197,
+      "has_images": true
+    },
+    {
+      "page": 18,
+      "char_count": 291,
+      "has_images": false
+    },
+    {
+      "page": 19,
+      "char_count": 43,
+      "has_images": true
+    }
+  ]
+}
