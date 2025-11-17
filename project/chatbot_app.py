@@ -16,7 +16,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # ----------------------------------------
 # Directories (modify if needed)
 # ----------------------------------------
-MD_DIR = "project\out_md"   # Folder where your Markdown files live
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MD_DIR = os.path.join(BASE_DIR, "out_md")  # Always correct
 
 # ----------------------------------------
 # 1. Setup
