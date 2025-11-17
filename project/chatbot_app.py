@@ -23,10 +23,23 @@ MD_DIR = os.path.join(BASE_DIR, "out_md")  # Always correct
 # 1. Setup
 # ----------------------------------------
 load_dotenv()
-OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+import os
+from dotenv import load_dotenv
+import streamlit as st
+
+load_dotenv()
+
+try:
+    OPENROUTER_API_KEY = st.secrets.get("OPENROUTER_API_KEY")
+except st.errors.StreamlitAPIException:
+    OPENROUTER_API_KEY = None
+
+# Fallback to .env for local development
+OPENROUTER_API_KEY = OPENROUTER_API_KEY or os.getenv("OPENROUTER_API_KEY")
 
 if not OPENROUTER_API_KEY:
-    raise ValueError("OPENROUTER_API_KEY missing in .env")
+    raise ValueError("OPENROUTER_API_KEY is missing. Set it in .env or Streamlit Secrets")
+
 
 HEADERS = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
